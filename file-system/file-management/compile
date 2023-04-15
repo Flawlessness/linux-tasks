@@ -1,0 +1,18 @@
+#!/bin/bash
+
+gcc -o file-management file-management.c
+
+ln file-management makedir
+ln file-management removedir
+ln file-management lsdir
+ln file-management makefile
+ln file-management removefile
+ln file-management readfile
+ln file-management create-symlink
+ln file-management read-symlink
+ln file-management readfile-symlink
+ln file-management remove-symlink
+ln file-management create-hardlink
+ln file-management remove-hardlink
+ln file-management read-permissions
+ln file-management change-permissions
